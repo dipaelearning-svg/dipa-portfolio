@@ -1,0 +1,111 @@
+
+      .logo{
+        height: 60px;
+        margin: 10px;
+      }
+      .menubar{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+      }
+      .menubar ul{
+        display: flex;
+      }
+      .menubar ul li{
+        padding: 10px 20px;
+        list-style: none;
+      }
+      .menubar ul li:hover{background-color: rgb(9, 37, 62);
+        color: black;
+
+      }
+      .menubar ul li a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .about{
+        display: flex;
+        padding: 40px 20px;
+        background-color:beige;
+      }
+    .about-image{
+        width: 50%;
+    }
+    .about-content{
+        width: 50%;
+    }
+    .about-image img{
+        height: 250px;
+        width: 250px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+    }
+    .btn-primary{
+        padding: 10px 30px;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .btn-primary:hover{
+      background-color: rgb(235, 239, 243);
+        color: black;
+
+    }
+     section h2{
+      text-align: center;
+      text-decoration: underline;
+     }
+     .services{
+      display: flex;
+      gap: 20px;
+     }
+     .service{
+      width: 32%;
+      background-color: beige;
+      padding: 40px 10px;
+      border-radius: 10px;
+     }
+     .service img{
+      width: 80%;
+      height: 200px;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+     }
+     .custom{
+      color: red ; font-size: 40px;
+     }
+     .contact{
+      display: flex;
+     }
+     .contact-right{width: 50%;
+
+     }
+     .contact-left {
+      width: 50%;
+     }
+     .contact-left p{
+      font-size: 40px;
+     }
+      .form-control{
+      width: 50%;
+      padding: 10px; 
+      border: 2px;border-radius: 10px;
+     margin-bottom: 20px;}
+     .footer-icon{ 
+      padding: 40px;
+            text-align: center;
+    
+      background-color: rgb(9, 9, 9);
+      
+     }
+  .social-icon{
+    
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.508);
+  }
+
+  
